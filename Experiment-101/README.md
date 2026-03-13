@@ -58,8 +58,8 @@ int main(void) {
 ```
 ## Output
 
- 
----
+ <img width="1438" height="251" alt="image" src="https://github.com/user-attachments/assets/400f971c-318c-434d-bf6f-8a2ec757277e" />
+
 
 ## Result
 Thus, a simple Hello World application was successfully developed, compiled, and executed on the QNX operating system using both VMware virtual machine and Raspberry Pi hardware targets.
