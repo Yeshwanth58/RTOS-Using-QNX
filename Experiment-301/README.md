@@ -28,6 +28,7 @@ Design a **QNX server and client program** where:
 ---
 
 # Algorithm
+* Ensure that the header file: `msg_def.h` is created/copied for both the projects (server and client).
 
 ## Server Algorithm
 
@@ -206,9 +207,24 @@ int main(int argc, char* argv[])
     return EXIT_SUCCESS;
 }
 ```
-
 ---
+## Header file (msg_def.h)
 
+```c
+
+#ifndef MSG_DEF_H
+#define MSG_DEF_H
+
+#define CKSUM_MSG_TYPE  0x01
+#define MAX_STRING_SIZE 256
+
+typedef struct {
+    int msg_type;
+    char string_to_cksum[MAX_STRING_SIZE];
+} cksum_msg_t;
+
+#endif
+```
 # Expected Output
 
 ### Server Side
@@ -232,6 +248,10 @@ MsgSend return status: 0
 ---
 
 # Output
+## Server Side
+<img width="1082" height="157" alt="image" src="https://github.com/user-attachments/assets/78758eb1-cfcf-4f7e-8efb-12166c9c35ea" />
+## Client Side
+<img width="1082" height="157" alt="image" src="https://github.com/user-attachments/assets/cf3d10bf-ae79-4be0-960e-0072dc466c4d" />
 
 ---
 
