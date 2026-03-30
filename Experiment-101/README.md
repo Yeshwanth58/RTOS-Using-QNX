@@ -44,21 +44,21 @@ To create, build, and execute a simple “Hello World” program in QNX on two t
 
 ## Program (hello.c)
 
-```
+```c
 #include <stdio.h>
 #include<stdlib.h>
 
 int main(void) {
-  puts("Hello World!!!"); 
-	puts("Name: Yeshwanthkumar A");
-	puts("Register Number: 212223060311");
+   puts("Hello World!!!"); 
+	puts("Name: Sudharsanan B");
+	puts("Register Number: 212223060277");
 	return EXIT_SUCCESS;
-}
 }
 ```
 ## Output
 
- <img width="1438" height="251" alt="image" src="https://github.com/user-attachments/assets/400f971c-318c-434d-bf6f-8a2ec757277e" />
+<img width="1438" height="251" alt="Screenshot 2026-03-13 110524" src="https://github.com/user-attachments/assets/d61d494b-0321-4473-81ea-8a72221a576c" />
+
 
 
 ## Result
